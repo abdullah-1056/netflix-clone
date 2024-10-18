@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    
+    background: #000;
+    color: #fff;
+}
+
+header{
+    height: 600px;
+    width: 100%;
+    /* background: linear-gradient(to top, rgba(36,36,36,0.2), rgba(0, 0, 0, 0.55)), 
+    linear-gradient(to bottom, rgba(36, 36, 36, 0.2), rgba(0, 0, 0, 0.948)),
+    url("hero.jpg"); */
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9000) 0.000%, rgba(0, 0, 0, 0.8965) 8.500%,
+     rgba(0, 0, 0, 0.8861) 17.00%, rgba(0, 0, 0, 0.8688) 25.50%, rgba(0, 0, 0, 0.8444) 34.00%, rgba(0, 0, 0, 0.8132) 42.50%,
+     rgba(0, 0, 0, 0.7750) 51.00%, rgba(0, 0, 0, 0.7368) 59.50%, rgba(0, 0, 0, 0.7056) 68.00%, rgba(0, 0, 0, 0.6813) 76.50%,
+     rgba(0, 0, 0, 0.6639) 85.00%, rgba(0, 0, 0, 0.6535) 93.50%, rgba(0, 0, 0, 0.6500) 102.0%),url("hero.jpg");
+
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+nav .logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+
+nav button{
+   cursor: pointer;
+   background-color: red;
+   border-radius: 5px;
+   font-size: 15px;
+   border: 0px;
+   color: #fff;
+   padding: 8px 13px;
+   margin: 4px;
+   font-size: 15px;
+}
+
+nav .lang-btn{
+    border: 1px solid #fff;
+    background: transparent;
+}
+nav .lang-btn i{
+     margin-left: 5px;
+     margin-right: 5px;
+}
+
+header .content{
+    height: 109px;
+    text-align: center;
+    margin-top: 180px;  
+    font-size: 25px;
+}
+
+
+.content p{
+    margin-top: 8px;
+}
+.content .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.content input{
+    margin-top: 15px;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 10px;
+    border-radius: 4px;
+    width: 15%;
+    
+}
+.content button{
+    margin-top: 15px;
+    font-size: 26px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 4px 10px;
+    cursor: pointer;
+   
+}
+header p{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+main .top{
+    height: 50px;
+    margin-left: 50px;
+}
+main select{
+    height: 40px;
+    padding: 8px 13px;
+    margin: 4px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+select option{
+    background-color:#fff;
+    color: #050a0f;
+}
+
+main .trending-item{
+    height: 270px;
+    margin: 2px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.trending-item button{
+    height: 200px;
+    width: 180px;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+
+
+.trending-1:hover {
+    transform: scale(1.05);
+}
+.trending-2:hover {
+    transform: scale(1.05);
+}
+.trending-3:hover {
+    transform: scale(1.05);
+}
+.trending-4:hover {
+    transform: scale(1.05);
+}
+.trending-5:hover {
+    transform: scale(1.05);
+}
+
+
+.trending-item span{
+    font-size: 80px;
+    position: absolute;
+   margin-top: 114px;
+   background-color: rgba(153, 241, 212,0.3);
+   border-radius: 20%;
+   color: #000;
+}
+main .more-items{
+    height: 250px;
+    gap: 8px;
+    margin:3px 50px;
+    display: flex;
+   justify-content: space-evenly;
+}
+main h2{
+    margin-left: 50px;
+}
+main .Enjoy-TV{
+    width: 23%;
+    border-radius: 4px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+main .Download{
+    width: 23%;
+    border-radius: 4px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+main .Watch-everywhere{
+    width: 23%;
+    border-radius: 6px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+main .Create-kids-profiles{
+    width: 23%;
+    border-radius: 4px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+main .more-items h3{
+  margin: 10px 15px;
+}
+main .more-items p{
+    margin: 10px 15px;
+}
+footer h2{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+footer .net-info{
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+footer .net-info button{
+    width: 95%;
+    text-align: left;
+    padding: 20px 50px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #454343;
+    border: 0px;
+    outline: 0px;
+    color: #fff;
+}
+footer .net-info button:hover{
+    background-color: #767070;
+    cursor: pointer;
+}
+footer .net-info button::after{
+    content: '+';
+    float: right;
+    font-size: 40px;
+}
+footer .Finish-sing button{
+    cursor: pointer;
+       margin-top: 30px;
+       margin-left: 50px;
+       padding: 10px 25px;
+       font-size: 25px;
+       color: #fff;
+       background-color: red;
+       outline: 0px;
+       border: 0px;
+       border-radius: 4px;
+       margin-bottom: 30px;
+}
+
+.Finish-sing button i{
+  padding-left: 2px;
+  padding-top: 4px;
+ 
+}
+
+footer  a{
+    color: #fff;
+   margin: 30px 0px 0px 50px;
+   cursor: pointer;
+}
+footer .Question{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .Question a{
+    color: #fff;
+   margin: 30px 0px 0px 50px;
+  
+}
+footer .Question li{
+    list-style-type: none;
+    margin-bottom: 6px;
+    font-size: small;
+}
+
+footer .footer-bottom{
+    margin: 40px 0px 70px 110px;
+}
